@@ -1,0 +1,100 @@
+html,
+body{
+    font-family: 'Inter Tight', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Advertisement CSS */
+@media (max-width:768px){
+    
+}
+.ad{
+    min-width: 320px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.ad .container{
+    display: flex;
+    flex-direction: column;
+
+}
+.ad .container .visually-hidden{
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.ad .container .ad-header{
+    width: fit-content;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: inherit;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+    background-color: #576F35;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 10px;
+}
+.ad .container .ad-content{
+    font-family: inherit;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*Desktop Design*/
+@media (min-width: 1280px)
+{
+    .ad .container{
+        width: calc(100% - 200px);
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .ad .container .ad-header, .ad .container .ad-content{
+        font-size: 72px;
+        line-height: 72px;
+    }
+}
+/*Tablet Design*/
+@media (max-width: 1279px)
+{
+    .ad .container{
+        width: calc(100% - 64px);
+        margin: auto;
+        margin-top: 120px;
+        margin-bottom: 112px;
+    }
+    .ad .container .ad-header, .ad .container .ad-content{
+        font-size: 64px;
+        line-height: 64px;
+    }
+}
+/*Mobile Design*/
+@media (max-width: 767px)
+{
+    .ad .container{
+        width: calc(100% - 40px);
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
