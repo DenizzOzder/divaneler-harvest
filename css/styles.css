@@ -1,14 +1,110 @@
-html,
-body{
+*{
+    box-sizing: border-box;
+}
+html, body {
     font-family: 'Inter Tight', sans-serif;
-    margin: 0;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-/* Advertisement CSS */
-@media (max-width:768px){
-    
+/* Mobile Menu CSS*/
+header{
+    width: 100%;
 }
+header .mobil-menu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh; /* Ekran yüksekliğini kaplasın */
+    width: 100%;
+    min-width: 320px;
+    background-color: #576F35;
+    z-index: 1;
+}
+
+header .mobil-menu .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ortaya hizala */
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+header .mobil-menu .container .mobil-nav-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    gap: 24px;
+    width: fit-content;
+}
+header .mobil-menu .container .mobil-nav-list .nav-list-item{
+    text-align: center;
+    padding: 16px 12px;
+    border: 1px solid white;
+    border-radius: 12px;
+    min-width: 118px;
+    white-space: nowrap;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+header .mobil-menu .container .mobil-nav-list .nav-list-item .nav-list-item-link{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 16px 12px;
+    font-family: inherit;
+    min-width: 118px;
+    white-space: nowrap;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: inherit;
+    font-weight: 500;
+}
+header .mobil-menu .container .mobil-nav-list .nav-list-item:hover{
+    background-color: white;
+}
+header .mobil-menu .container .mobil-nav-list .nav-list-item:hover, header .mobil-menu .container .mobil-nav-list .nav-list-item:hover .nav-list-item-link{
+    color: #7A3145;
+}
+header .mobil-menu .container .mobil-menu-shop{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    font-family: inherit;
+    text-decoration: none;
+    padding: 16px 41px;
+    background-color: #7A3145;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 52px;
+}
+header .mobil-menu .container .modal-button{
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e7e9fc;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0;
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* Advertisement CSS */
 .ad{
     min-width: 320px;
     width: 100%;
@@ -61,22 +157,37 @@ body{
     margin-bottom: 0;
 }
 /*Desktop Design*/
-@media (min-width: 1280px)
+
+/*Tablet Design*/
+@media (max-width: 767px)
 {
     .ad .container{
-        width: calc(100% - 200px);
+        width: calc(100% - 40px);
         margin: auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
-    .ad .container .ad-header, .ad .container .ad-content{
-        font-size: 72px;
-        line-height: 72px;
+    header .mobil-menu{
+        display: flex;
     }
+
 }
-/*Tablet Design*/
-@media (max-width: 1279px)
+@media (min-width:768px) and (max-width: 1279px)
 {
+    header .mobil-menu{
+        display: flex;
+        width: 351px;
+        right: 0;
+        z-index: 2;
+    }
+    .modal-bg{
+        background-color: rgba(20, 20, 20, 0.4);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+    }
     .ad .container{
         width: calc(100% - 64px);
         margin: auto;
@@ -88,13 +199,17 @@ body{
         line-height: 64px;
     }
 }
-/*Mobile Design*/
-@media (max-width: 767px)
+/* Mobile Design */
+@media (min-width: 1280px)
 {
     .ad .container{
-        width: calc(100% - 40px);
+        width: calc(100% - 200px);
         margin: auto;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .ad .container .ad-header, .ad .container .ad-content{
+        font-size: 72px;
+        line-height: 72px;
     }
 }
