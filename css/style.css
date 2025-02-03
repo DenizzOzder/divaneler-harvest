@@ -220,7 +220,100 @@ header .mobil-menu .container .modal-button {
   }
 }
 /* Bilal Header CSS Start */
+.ghost {
+  display: none;
+}
+.bilal-header-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.bilal-header-left-links {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
 .bilal-header-left-icons .icon-menu {
   width: 16px;
   height: 16px;
+}
+.bilal-header-left-icons .icon-menu-text {
+  width: 146px;
+  height: 12px;
+}
+.bilal-header-hamburger-link {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icon-menu-hamburger,
+.bilal-header-hamburger-link {
+  width: 32px;
+  height: 32px;
+}
+.bilal-header-modal {
+  height: 100vh;
+  background-color: #576f35;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.bilal-header-modal-links {
+  border: 1px solid #fbfbfb;
+  color: white;
+  width: 118px;
+  height: 44px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.modal-first-link {
+  background-color: white;
+  color: #7a3145;
+  font-family: Inter Tight;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 12px 16px 12px 16px;
+  margin-top: 296px;
+}
+.modal-bottom-link {
+  background-color: #7a3145;
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 175px;
+  height: 52px;
+  padding: 16px 41px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 232px;
+  margin-bottom: 52px;
+}
+.bilal-header-modal-svg {
+  width: 32px;
+  height: 32px;
+}
+.bilal-header-modal-button {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0;
+  cursor: pointer;
 }
