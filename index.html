@@ -1,42 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Green Harvest</title>
-</head>
-<body>
-<!-- Header Section Started -->
+  </head>
+  <body>
+    <!-- Header Section Started -->
     <header>
-        <!-- Mobil Menu Section Starts -->
-        <div class="mobil-menu">
-            <div class="container">
-                    <svg width="32" height="32" class="modal-button">
-                      <use href="./images/icons.svg#icon-close"></use>
-                    </svg>
-                <ul class="mobil-nav-list">
-                    <li class="nav-list-item">
-                        <a href="" class="nav-list-item-link">How It Works</a>
-                    </li>
-                    <li class="nav-list-item">
-                        <a href="" class="nav-list-item-link">Vegetables</a>
-                    </li>
-                    <li class="nav-list-item">
-                        <a href="" class="nav-list-item-link">Reviews</a>
-                    </li>
-                </ul>
-                <a href="" class="mobil-menu-shop">Shop Now</a>
-            </div>
+      <!-- Header Bilal Started-->
+      <nav class="bilal-header-nav">
+        <div class="bilal-header-container">
+          <div class="bilal-header-left-icons">
+            <a href="#" class="bilal-header-left-links"
+              ><svg class="icon-menu">
+                <use href="./images/icons.svg#icon-logo-vector"></use>
+              </svg>
+              <svg class="icon-menu-text">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="bilal-header-right-icons">
+            <a href="#" class="bilal-header-leftside-links ghost"
+              >How It Works</a
+            >
+            <a href="#" class="bilal-header-leftside-links ghost">Vegetables</a>
+            <a href="#" class="bilal-header-leftside-links ghost">Reviews</a>
+            <a href="#" class="bilal-header-rightside-links ghost">SHOP NOW</a>
+            <button type="button" class="bilal-header-hamburger-link">
+              <svg class="icon-menu-hamburger">
+                <use href="./images/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
+          </div>
         </div>
-        <!-- Mobil Menu Section End -->
-    </header> 
-<!-- Header Section Ended -->
-   
+        <div class="bilal-header-modal">
+          <button type="button" class="bilal-header-modal-button">
+            <svg class="bilal-header-modal-svg">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <a href="#" class="bilal-header-modal-links modal-first-link"
+            >How It Works</a
+          >
+          <a href="#" class="bilal-header-modal-links">Vegetables</a>
+          <a href="#" class="bilal-header-modal-links">Reviews</a>
+          <a href="#" class="bilal-header-modal-links modal-bottom-link"
+            >SHOP NOW</a
+          >
+        </div>
+      </nav>
+      <!-- Header Bilal Finished-->
+      <!-- Mobil Menu Section Starts -->
+      <div class="mobil-menu">
+        <div class="container">
+          <svg width="32" height="32" class="modal-button">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+          <ul class="mobil-nav-list">
+            <li class="nav-list-item">
+              <a href="" class="nav-list-item-link">How It Works</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-list-item-link">Vegetables</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-list-item-link">Reviews</a>
+            </li>
+          </ul>
+          <a href="" class="mobil-menu-shop">Shop Now</a>
+        </div>
+      </div>
+      <!-- Mobil Menu Section End -->
+    </header>
+    <!-- Header Section Ended -->
+
     <main>
 <!-- Hero Section Start -->
 <section class="hero">
@@ -72,12 +125,11 @@
         <div></div>
 <!-- Your Order Section Ended -->
     </main>
-<!-- Footer Section Started -->
-    <footer>
-    </footer>
+    <!-- Footer Section Started -->
+    <footer></footer>
     <!-- Footer Section Ended  -->
-<!-- Modal background (dark) Started -->
-    <div class="modal-bg "></div>
-<!-- Modal background (dark) Ended -->
-</body>
+    <!-- Modal background (dark) Started -->
+    <div class="modal-bg"></div>
+    <!-- Modal background (dark) Ended -->
+  </body>
 </html>
