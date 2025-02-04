@@ -14,7 +14,6 @@ body {
 }
 .bilal-header-container {
   display: flex;
-  padding: 20px;
   justify-content: space-between;
   align-items: center;
 }
@@ -24,7 +23,7 @@ body {
   column-gap: 4px;
 }
 .bilal-header-left-icons .icon-menu {
-  flex-basis: 16px;
+  width: 16px;
   height: 16px;
 }
 .bilal-header-left-icons .icon-menu-text {
