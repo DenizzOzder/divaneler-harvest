@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html,
 body {
   font-family: "Inter Tight", sans-serif;
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
+  
   width: 100%;
 }
 .ghost {
@@ -214,6 +215,7 @@ header .mobil-menu .container .modal-button {
   color: #fbfbfb;
   padding: 0px 0px 0px 100px;
   width: 100%;
+  height: 100vh;
 }
 
 .hero-text {
@@ -250,6 +252,9 @@ header .mobil-menu .container .modal-button {
 }
 .hero-image-item {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 /* Advertisement CSS */
