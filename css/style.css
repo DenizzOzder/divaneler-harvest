@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html,
 body {
   font-family: "Inter Tight", sans-serif;
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
+  
   width: 100%;
 }
 .ghost {
@@ -214,6 +215,7 @@ header .mobil-menu .container .modal-button {
   color: #fbfbfb;
   padding: 0px 0px 0px 100px;
   width: 100%;
+  height: 100vh;
 }
 
 .hero-text {
@@ -250,6 +252,9 @@ header .mobil-menu .container .modal-button {
 }
 .hero-image-item {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 /* Advertisement CSS */
@@ -308,6 +313,103 @@ header .mobil-menu .container .modal-button {
   width: 100%;
 }
 
+/* Vegetables Section Started  */
+
+/* Vegetables Section Desktop Started */
+
+ol,
+ul {
+  list-style: none;
+  
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.section-four {
+  background-color: #7A3145;
+}
+
+.section-four .container {
+  padding: 100px 100px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.section-four .section-four-container .section-four-header {
+  font-family: 'Inter Tight', sans-serif;
+  color: #FBFBFB;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size:64px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 24px;
+  max-width: 508px;
+}
+.section-four .section-four-container .section-four-text {
+  font-family: 'Inter Tight', sans-serif;
+  color: #FBFBFB;
+  font-weight: 500;
+  font-size:16px;
+  letter-spacing: 0em;
+  line-height: 1.25;
+  margin-bottom: 52px;
+  max-width: 626px;
+  
+}
+.section-four .section-four-container .section-four-header .vegetables-span{
+  color: #D4BFC4;
+}
+
+.section-four .section-four-container .section-four-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 28px;
+}
+
+.section-four .section-four-container .section-four-list .section-four-vegetables {
+  background-color: #FBFBFB;
+  border-radius: 40px;
+  padding: 32px 32px;
+  width: calc((100% - 100px) / 3);
+}
+
+.section-four  .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-header {
+  font-family: 'Inter Tight', sans-serif;
+  text-transform: uppercase;
+  color: #7A3145;
+  font-weight: 600;
+  font-size:32px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 12px;
+
+}
+.section-four .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-text {
+  font-family: 'Inter Tight', sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.42;
+  margin-bottom: 8px;
+}
+
+.section-four .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-div-two {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+/* Vegetables Section Desktop Finish */
+
+
 /* Mobile Responsive */
 @media (max-width: 767px) {
   .hero {
@@ -341,6 +443,81 @@ header .mobil-menu .container .modal-button {
   header .is-open {
     display: flex;
   }
+  /* Vegetables Section Mobile Started  */
+
+.section-four {
+  background-color: #7A3145;
+}
+
+.section-four .container {
+  padding: 80px 20px;
+  width: 100%;
+  min-width: 320px;
+  height: 100%;    
+}
+
+
+.section-four .section-four-container .section-four-header {
+  font-family: 'Inter Tight', sans-serif;
+  color: #FBFBFB;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size:48px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.section-four .section-four-container .section-four-text {
+  font-family: 'Inter Tight', sans-serif;
+  color: #FBFBFB;
+  font-weight: 500;
+  font-size:16px;
+  letter-spacing: 0em;
+  line-height: 1.25;
+  margin-bottom: 40px;
+}
+
+.section-four .section-four-container .section-four-header .vegetables-span{
+  color: #D4BFC4;
+}
+
+.section-four .section-four-container .section-four-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-four .section-four-container .section-four-list .section-four-vegetables {
+  background-color: #FBFBFB;
+  border-radius: 40px;
+  padding: 32px 24px;
+  width: calc((100% - 20px) / 1);
+}
+
+
+.section-four .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-header {
+  font-family: 'Inter Tight', sans-serif;
+  text-transform: uppercase;
+  color: #7A3145;
+  font-weight: 600;
+  font-size:28px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 12px;
+
+}
+.section-four .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-text {
+  font-family: 'Inter Tight', sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0em;
+  line-height: 1.42;
+  margin-bottom: 12px;
+}
+
+
+/* Vegetables Section Mobile Finish */
 }
 /*Tablet Responsive */
 @media (min-width: 768px) and (max-width: 1279px) {
@@ -408,6 +585,87 @@ header .mobil-menu .container .modal-button {
     width: 187px;
     height: 17px;
   }
+   /* Vegetables Section Tablet Started */
+
+.section-four {
+  background-color: #7A3145;
+}
+
+.section-four .container {
+  padding: 100px 32px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.section-four .section-four-container .section-four-header {
+  font-family: 'Inter Tight', sans-serif;
+  color: #FBFBFB;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size:64px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 24px;
+  max-width: 508px;
+}
+.section-four .section-four-container .section-four-text {
+  font-family: 'Inter Tight', sans-serif;
+  color: #FBFBFB;
+  font-weight: 500;
+  font-size:16px;
+  letter-spacing: 0em;
+  line-height: 1.25;
+  margin-bottom: 52px;
+  max-width: 626px;
+  
+}
+.section-four .section-four-container .section-four-header .vegetables-span{
+  color: #D4BFC4;
+}
+
+.section-four .section-four-container .section-four-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 28px;
+}
+
+.section-four .section-four-container .section-four-list .section-four-vegetables {
+  background-color: #FBFBFB;
+  border-radius: 40px;
+  padding: 32px 30px;
+  width: calc((100% - 32px) / 2);
+}
+
+.section-four  .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-header {
+  font-family: 'Inter Tight', sans-serif;
+  text-transform: uppercase;
+  color: #7A3145;
+  font-weight: 600;
+  font-size:32px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 12px;
+
+}
+.section-four .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-text {
+  font-family: 'Inter Tight', sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.42;
+  margin-bottom: 8px;
+}
+
+.section-four .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-div-two {
+  display: flex;
+  justify-content: center;
+}
+
+/* Vegetables Section Tablet Finish */
 }
 /* Desktop Only Codes */
 @media (min-width: 1280px) {
