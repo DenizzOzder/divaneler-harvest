@@ -370,6 +370,7 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 28px;
+  align-items: center;
 }
 
 .section-four .section-four-container .section-four-list .section-four-vegetables {
