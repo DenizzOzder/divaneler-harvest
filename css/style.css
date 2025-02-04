@@ -24,7 +24,7 @@ body {
   column-gap: 4px;
 }
 .bilal-header-left-icons .icon-menu {
-  width: 16px;
+  flex-basis: 16px;
   height: 16px;
 }
 .bilal-header-left-icons .icon-menu-text {
@@ -426,6 +426,23 @@ header .mobil-menu .container .modal-button {
   .bilal-header-rightside-links {
     display: inline;
   }
+  .bilal-header-leftside-links:hover {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  .bilal-header-leftside-links:active {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+  .bilal-header-rightside-links:hover {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  .bilal-header-rightside-links:active {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+
   .bilal-header-left-icons .icon-menu {
     width: 20px;
     height: 20px;
@@ -449,7 +466,6 @@ header .mobil-menu .container .modal-button {
     border-radius: 12px;
     text-decoration: none;
     text-align: center;
-    height: 44px;
   }
   .bilal-header-rightside-links {
     background-color: #7a3145;
