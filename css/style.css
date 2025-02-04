@@ -14,8 +14,8 @@ body {
   display: none;
 }
 .bilal-header-container {
-  display: flex;
   padding: 20px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -684,6 +684,23 @@ a {
   .bilal-header-rightside-links {
     display: inline;
   }
+  .bilal-header-leftside-links:hover {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  .bilal-header-leftside-links:active {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+  .bilal-header-rightside-links:hover {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  .bilal-header-rightside-links:active {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+
   .bilal-header-left-icons .icon-menu {
     width: 20px;
     height: 20px;
@@ -707,7 +724,6 @@ a {
     border-radius: 12px;
     text-decoration: none;
     text-align: center;
-    height: 44px;
   }
   .bilal-header-rightside-links {
     background-color: #7a3145;
