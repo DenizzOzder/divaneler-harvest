@@ -533,6 +533,270 @@ a {
 }
 
 /* Vegetables Section  Finish */
+
+.order{
+  background-color:#576F35;
+}
+
+.order .container{
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  
+}
+.order .container .div-order{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+  width:751px ;
+  height: 192px;
+  
+}
+
+.order .container .div-order .order-header{
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  color: #FBFBFB;
+  padding-bottom: 24px;
+  padding-left: 100px;
+}
+.order .container .div-order .order-header .header-span{
+  color: #D4BFC4;
+}
+
+.order .container .div-order .order-content{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FBFBFB;
+  padding-left: 100px;
+}
+
+.order .container .div-form-block{
+  padding: 80px 0;
+  padding-top: 52px;
+  padding-bottom: 100px;
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
+
+}
+.order .container .div-form-block .form-container{
+  width: 100%;
+  margin-left: 100px;
+}
+
+.order .container .div-form-block .form{
+  background-color: #FBFBFB;
+  width: 100%;
+  border-radius: 30px;
+  padding: 48px 48px 52px 52px ;
+  
+}
+
+.order .container .div-form-block .form-container .form .form-header{
+  font-family: inherit;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.015em;
+  color: #141414;
+  text-transform: uppercase;
+}
+
+.order .container .div-form-block .form-container .form .form-header .form-span-1{
+  color: #7A3145;
+}
+
+.order .container .div-form-block .form-container .form .form-header .form-span-2{
+  color:#576F35;
+}
+
+.order .container .div-form-block .form-container .form .form-group-full-name{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 52px;
+  text-align: center;
+  align-items: center;
+}
+
+
+.order .container .div-form-block .form-container .form .form-group-full-name .form-input-name{
+  border: 1px solid #858585;
+  border-radius: 30px;
+  font-family: inherit;
+  width: 100%;
+  height: 52px;
+  background-color: transparent;
+  padding-left: 14px;
+  outline: none;
+}
+
+.order .container .div-form-block .form-container .form .form-group-full-name .form-input-name::placeholder{
+  color: #141414;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.order .container .div-form-block .form-container .form .form-group-full-name .form-input-name:focus{
+  border: 1px solid #7A3145;
+}
+.order .container .div-form-block .form-container .form .form-group-full-name .form-input-name:not(:placeholder-shown):invalid{
+  border: 1px solid #E74A3B;
+}
+.order .container .div-form-block .form-container .form .form-group-full-name .form-input-name:not(:placeholder-shown):valid{
+  border: 1px solid #3CBC81;
+}
+
+.order .container .div-form-block .form-container .form .form-group-email{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.order .container .div-form-block .form-container .form .form-group-email .form-input-email{
+  border: 1px solid #858585;
+  border-radius: 30px;
+  font-family: inherit;
+  width: 100%;
+  height: 52px;
+  background-color: transparent;
+  padding-left: 14px;
+  outline: none;
+}
+
+.order .container .div-form-block .form-container .form .form-group-email .form-input-email::placeholder{
+  color: #141414;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.order .container .div-form-block .form-container .form .form-group-email .form-input-email:focus{
+  border: 1px solid #7A3145;
+}
+.order .container .div-form-block .form-container .form .form-group-email .form-input-email:not(:placeholder-shown):invalid{
+  border: 1px solid #E74A3B;
+}
+.order .container .div-form-block .form-container .form .form-group-email .form-input-email:not(:placeholder-shown):valid{
+  border: 1px solid #3CBC81;
+}
+.order .container .div-form-block .form-container .form .form-textarea{
+  gap: 16px;
+  margin-top: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.order .container .div-form-block .form-container .form .form-textarea .form-input-textarea{
+  border: solid 1px #858585;
+  border-radius: 15px;
+  width: 100%;
+  height: 96px;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-top: 16px;
+  outline: none;
+
+}
+
+.order .container .div-form-block .form-container .form .form-textarea .form-input-textarea::placeholder{
+  color: #141414;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.order .container .div-form-block .form-container .form .form-button{
+  background-color: #7A3145;
+  color: #FBFBFB;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  border-radius: 30px;
+  width: 100%;
+  height: 52px;
+  margin-top: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.order .container .div-form-block .order-social{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #7A3145;
+  border-radius: 30px;
+  margin-right: 100px;
+}
+
+.order .container .div-form-block .order-social .social-img img{
+  border-radius: 15px;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-top: 52px;
+}
+
+.order .container .div-form-block .order-social .social{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 386px;
+  height: 56px;
+  margin-left: 48px;
+}
+
+.order .container .div-form-block .order-social .social .social-header{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: #D4BFC4;
+}
+
+.order .container .div-form-block .order-social .social .social-list{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.order .container .div-form-block .order-social .social .social-list .social-list-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.order .container .div-form-block .order-social .social .social-list .social-list-item .social-list-item-link{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: #FBFBFB;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Order ended */
+
 /* Footer */
 .footer {
   background-color: #7A3145;
@@ -792,6 +1056,56 @@ a {
     min-width: 335px;
     height: 452px;
   }
+
+  /* Order Section Mobile*/
+  .order .container .div-form-block{
+    display: flex;
+    flex-direction: column;
+}
+.order .container .div-form-block .form-container{
+    margin-left: 0;
+}
+.order .container .div-form-block .form{
+    width: 90vw;
+    margin-left: 20px;
+}
+.order .container .div-order{
+    width: unset;
+}
+.order .container .div-form-block .order-social{
+    width: 90vw;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.order .container .div-form-block .order-social .social{
+    margin-bottom: 20px;
+    width: unset;
+    height: unset;
+    margin-left: unset;
+}
+.order .container .div-order .order-header{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.order .container .div-order .order-content{
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+}
+.order .container .div-order{
+    padding: unset;
+    height: unset;
+}
+.order .container .div-form-block .order-social .social .social-list{
+    gap: 8px;
+}
+
 /* Footer Section Mobile */
 .footer-container {
   display: flex;
@@ -1055,6 +1369,40 @@ a {
 }
 
 /* Vegetables Section Tablet Finish */
+
+/* Order Section Tablet */
+.order .container .div-form-block{
+  display: flex;
+  flex-direction: column;
+}
+.order .container .div-form-block .form-container{
+  margin-left: 0;
+  
+}
+.order .container .div-form-block .form{
+  width: 90vw;
+  margin-left: 40px;
+  
+}
+.order .container .div-form-block .order-social{
+  width: 90vw;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.order .container .div-form-block .order-social .social{
+  margin-bottom: 20px;
+  width: unset;
+  height: unset;
+  margin-left: unset;
+}
+.order .container .div-order .order-header{
+  padding-left: 40px;
+}
+.order .container .div-order .order-content{
+  padding-left: 40px;
+}
+
 /* Footer Section Tablet  */
 .footer-container {
   padding-right: 40px;
