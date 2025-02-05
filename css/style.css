@@ -257,7 +257,130 @@ header .mobil-menu .container .modal-button {
   object-fit: cover;
 
 }
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+}
 
+.how-it-works .how-it-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #7a3145;
+}
+
+.how-it-works .how-it-image .how-it-image-woman {
+  display: block;
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+.how-it-works .how-it-about {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background: #576f35;
+}
+
+.how-it-works .how-it-about .how-it-about-menu .how-it-title {
+  font-family: "Inter Tight", serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #fbfbfb;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+
+.how-it-works .how-it-about .how-it-about-menu .how-it-title-color {
+  color: #d4bfc4;
+}
+
+.how-it-works .how-it-about .how-it-about-menu .how-it-text {
+  font-family: "Inter Tight", serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
+  color: #fbfbfb;
+  margin: 0 0 40px 0;
+}
+
+.how-it-works .how-it-about .how-it-about-menu .how-it-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  counter-reset: section;
+  padding: 0;
+  margin: 0;
+}
+
+.how-it-works .how-it-about .how-it-about-menu .how-it-list .how-it-items {
+  font-family: "Inter Tight", serif;
+  font-size: 12px;
+  color: #14141499;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  width: 100%;
+  height: 76px;
+  background-color: #fbfbfb;
+  padding: 12px 27px 12px 100px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.how-it-works
+  .how-it-about
+  .how-it-about-menu
+  .how-it-list
+  .how-it-items:before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  background-color: #7a3145;
+  box-shadow: 0 0 0 5px #7a31454d;
+  border-radius: 50%;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  counter-increment: section;
+  content: counters(section, ".") " ";
+  position: absolute;
+  color: #fbfbfb;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.how-it-works
+  .how-it-about
+  .how-it-about-menu
+  .how-it-list
+  .how-it-items
+  .how-it-items-text {
+  font-family: "Inter Tight", serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.how-it-works .how-it-about .how-it-about-menu .how-it-list .how-it-items-bold {
+  color: #141414;
+  font-weight: 700;
+}
 /* Advertisement CSS */
 .ad {
   min-width: 320px;
@@ -316,7 +439,7 @@ header .mobil-menu .container .modal-button {
 
 /* Vegetables Section Started  */
 
-/* Vegetables Section Desktop Started */
+/* Vegetables Section  Started */
 
 ol,
 ul {
@@ -409,7 +532,7 @@ a {
   
 }
 
-/* Vegetables Section Desktop Finish */
+/* Vegetables Section  Finish */
 /* Footer */
 .footer {
   background-color: #7A3145;
@@ -665,6 +788,10 @@ a {
   line-height: 1.42;
   margin-bottom: 12px;
 }
+  .how-it-works .how-it-image .how-it-image-woman {
+    min-width: 335px;
+    height: 452px;
+  }
 /* Footer Section Mobile */
 .footer-container {
   display: flex;
@@ -737,6 +864,52 @@ a {
 }
 /*Tablet Responsive */
 @media (min-width: 768px) and (max-width: 1279px) {
+  .how-it-works .how-it-image {
+    padding: 100px 64px;
+  }
+
+  .how-it-works .how-it-image .how-it-image-woman {
+    min-width: 640px;
+    height: 640px;
+    object-fit: cover;
+  }
+
+  .how-it-works .how-it-about {
+    padding: 100px 164px;
+  }
+
+  .how-it-works .how-it-about .how-it-about-menu {
+    max-width: 450px;
+  }
+
+  .how-it-works .how-it-about .how-it-about-menu .how-it-title {
+    margin-bottom: 25px;
+    font-size: 32px;
+  }
+
+  .how-it-works .how-it-about .how-it-about-menu .how-it-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .how-it-works .how-it-about .how-it-about-menu .how-it-list .how-it-items {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .how-it-works
+    .how-it-about
+    .how-it-about-menu
+    .how-it-list
+    .how-it-items
+    .how-it-items-text {
+    font-family: "Inter Tight", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin: 0;
+  }
   .hero {
     flex-direction: column;
     padding: 0px 0px 0px 0px;
@@ -971,6 +1144,61 @@ a {
 }
 /* Desktop Only Codes */
 @media (min-width: 1280px) {
+  .how-it-works {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7a3145;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .how-it-works .how-it-image {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .how-it-works .how-it-image .how-it-image-woman {
+    max-width: 100%;
+  }
+
+  .how-it-works .how-it-about {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .how-it-works .how-it-about .how-it-about-menu {
+    min-height: 560px;
+  }
+
+  .how-it-works .how-it-about .how-it-about-menu .how-it-title {
+    font-size: 32px;
+    margin: 0 0 24px 0;
+  }
+
+  .how-it-works .how-it-about .how-it-about-menu .how-it-text {
+    font-size: 16px;
+    margin: 0 0 104px 0;
+  }
+
+  .how-it-works .how-it-about .how-it-about-menu .how-it-list {
+    gap: 24px;
+  }
+  .how-it-works
+    .how-it-about
+    .how-it-about-menu
+    .how-it-list
+    .how-it-items
+    .how-it-items-text {
+    font-family: "Inter Tight", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin: 0;
+  }
   .ad .container {
     width: calc(100% - 200px);
     margin: auto;
