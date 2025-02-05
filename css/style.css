@@ -158,7 +158,7 @@ html, body {
                 line-height: 52px;
                 letter-spacing: -1.5%;
                 font-weight:600;
-                margin-left:20px;
+                margin-left:100px;
                 margin-right:20px;
             }
             .rvw-title-a {
@@ -177,7 +177,7 @@ html, body {
                 line-height: 20px;
                 font-size: 16px;
                 font-family:"Inter Tight";
-                margin-left:20px;
+                margin-left:100px;
                 margin-right:20px;
                 margin-top: -24px;
                 font-weight: 500;
@@ -196,7 +196,7 @@ html, body {
             .customer-ul {
                 display:flex;
                 gap: 32px;
-                
+
             }
             
             .customer-list {
@@ -209,9 +209,6 @@ html, body {
                 display: block;
                 width: fit-content;
                 float: left;
-                
-                
-            
             }
             .customer-name-review{
                 display: block;
@@ -273,7 +270,7 @@ html, body {
         line-height: 64px;
         letter-spacing: -1.5%;
         font-weight:600;
-        margin-left:20px;
+        margin-left:100px;
         margin-right:20px;
     }
     .rvw-title-a {
@@ -293,7 +290,7 @@ html, body {
         line-height: 20px;
         font-size: 16px;
         font-family:"Inter Tight";
-        margin-left:20px;
+        margin-left:100px;
         margin-right:20px;
         margin-top: 0;
         font-weight: 500;
@@ -312,9 +309,8 @@ html, body {
     .customer-ul {
         display:flex;
         gap: 32px;
-        
+        justify-content: center;
     }
-    
     .customer-list {
         list-style-type: none;
         height: 248px;
@@ -325,9 +321,6 @@ html, body {
         display: block;
         width: fit-content;
         float: left;
-        
-        
-    
     }
     .customer-name-review{
         display: block;
