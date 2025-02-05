@@ -1064,12 +1064,10 @@ a {
 }
 .order .container .div-form-block .form-container{
     margin-left: 0;
-    
 }
 .order .container .div-form-block .form{
     width: 90vw;
     margin-left: 20px;
-    
 }
 .order .container .div-order{
     width: unset;
@@ -1093,14 +1091,19 @@ a {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     padding-left: 20px;
-    
 }
 .order .container .div-order .order-content{
     padding-left: 20px;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
-    margin-bottom: 40px;
+}
+.order .container .div-order{
+    padding: unset;
+    height: unset;
+}
+.order .container .div-form-block .order-social .social .social-list{
+    gap: 8px;
 }
 
 /* Footer Section Mobile */
