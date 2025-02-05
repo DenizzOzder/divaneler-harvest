@@ -614,6 +614,7 @@ a {
     width: 216px;
     height: 20px;
     display: flex;
+    align-items: flex-start;
    }
    
    
