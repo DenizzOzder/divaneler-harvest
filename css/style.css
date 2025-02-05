@@ -393,7 +393,7 @@ header .mobil-menu .container .modal-button {
   display: flex;
   flex-direction: column;
 }
-.ad .container .visually-hidden {
+.visually-hidden {
   text-align: center;
   display: none;
   position: absolute;
