@@ -324,6 +324,7 @@ html, body {
         display: block;
         width: fit-content;
         float: left;
+        justify-content: center;
         
         
     
