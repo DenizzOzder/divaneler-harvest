@@ -297,7 +297,6 @@ header .mobil-menu .container .modal-button {
   text-transform: uppercase;
   margin: 0 0 20px 0;
 }
-
 .how-it-works .how-it-about .how-it-about-menu .how-it-title-color {
   color: #d4bfc4;
 }
@@ -362,7 +361,6 @@ header .mobil-menu .container .modal-button {
   line-height: 1;
   letter-spacing: -0.02em;
 }
-
 .how-it-works
   .how-it-about
   .how-it-about-menu
@@ -886,10 +884,6 @@ a {
    margin-top: 0;
    margin-bottom: 12px;
     }
-   
-   
-   
-   
    .footer-contact {
     width: 163px; /* Verilen genişlik */
     height: 20px; /* Verilen yükseklik */
@@ -925,14 +919,10 @@ a {
     color: #D4BFC4;
     text-decoration: none;
    }
-   
-   
    .footer-privacy a:hover {
     text-decoration: underline;
    }
-   
-   
-   
+ 
    .footer-copyright {
     width: 100%;
     height: 20px;
@@ -945,8 +935,6 @@ a {
     align-items: center;
    } 
    /* Footer Finish*/
-
-
 /* Mobile Responsive */
 @media (max-width: 767px) {
   .hero {
@@ -1291,11 +1279,126 @@ a {
 }
 .b{
   display: none;
+  }
+  .how-it-works .how-it-image .how-it-image-woman {
+    min-width: 335px;
+    height: 452px;
+  }
+
+  /* Order Section Mobile*/
+  .order .container .div-form-block{
+    display: flex;
+    flex-direction: column;
 }
-/*Review Section Mobile Finish*/
+.order .container .div-form-block .form-container{
+    margin-left: 0;
+}
+.order .container .div-form-block .form{
+    width: 90vw;
+    margin-left: 20px;
+}
+.order .container .div-order{
+    width: unset;
+}
+.order .container .div-form-block .order-social{
+    width: 90vw;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.order .container .div-form-block .order-social .social{
+    margin-bottom: 20px;
+    width: unset;
+    height: unset;
+    margin-left: unset;
+}
+.order .container .div-order .order-header{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.order .container .div-order .order-content{
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+}
+.order .container .div-order{
+    padding: unset;
+    height: unset;
+}
+.order .container .div-form-block .order-social .social .social-list{
+    gap: 8px;
+}
 
+/* Footer Section Mobile */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+}
 
+.footer-logo-img,
+.footer-text {
+  width: 100%;
+  text-align: left;
+}
 
+.footer-text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer-links,
+.footer-contact,
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  text-align: left;
+}
+
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.footer-contact,
+.footer-address {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.footer-privacy,
+.footer-copyright {
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+  justify-content: flex-start;
+}
+
+.footer-privacy {
+  margin-bottom: 10px;
+}
+
+.footer-copyright {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* Footer Section Mobile Finish */
 /* Vegetables Section Mobile Finish */
 }
 /*Tablet Responsive */
@@ -1367,11 +1470,10 @@ a {
     width: unset;
     padding-right: 60px;
     margin-left:0;
-  }
+    
   .hero-image {
     height: 50vh;
   }
-
 
   header .is-open {
     display: flex;
@@ -1530,7 +1632,6 @@ a {
 .order .container .div-order .order-content{
   padding-left: 40px;
 }
-/*Review Section Tablet*/
 .reviews-section {
   display:block;
   justify-content: space-between;
@@ -1543,10 +1644,7 @@ a {
   width: 100%;
   height: 100%;
   margin: 80px auto 40px auto;
-  
-
 }
-
 .rvw-title {
   display: block;
   width: 100%;
@@ -1569,7 +1667,6 @@ a {
 .rvw-title-b {
   color: #576f35;
 }
-
 .rvw-title-paragraph {
   width: 75%;
   height: 60px;
@@ -1646,6 +1743,7 @@ a {
   display: none;
 }
 /*Review Section Tablet Finish*/
+
 
 /* Footer Section Tablet  */
 .footer-container {
