@@ -965,11 +965,17 @@ a {
     margin-bottom: 20px;
     margin-right: 20px;
     font-size: 52px;
+    margin-left:0;
   }
   .hero-text p {
     width: unset;
     font-size: 14px;
+    margin-left:0;
   }
+  .hero-image {
+    height:50vh;
+  }
+
 
   .ad .container {
     width: calc(100% - 40px);
@@ -1239,11 +1245,17 @@ a {
     width: unset;
     margin-bottom: 24px;
     margin-right: 32px;
+    margin-left:0;
   }
   .hero-text p {
     width: unset;
     padding-right: 60px;
+    margin-left:0;
   }
+  .hero-image {
+    height: 50vh;
+  }
+
 
   header .is-open {
     display: flex;
