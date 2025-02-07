@@ -7,7 +7,7 @@ html,
 body {
   font-family: "Inter Tight", sans-serif;
   overflow-x: hidden;
-  
+  scroll-behavior: smooth;
   width: 100%;
 }
 .ghost {
