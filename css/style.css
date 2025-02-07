@@ -1236,6 +1236,8 @@ text-align: center;
 }
 .rvw-customer-reviews {
   width: 100%;
+  overflow-x: auto; /* Yatay kaydırmayı aktif eder */
+  scroll-snap-type: x mandatory; /* Scroll snapping etkinleştirilir */
 }
 .customer-box {
 
@@ -1254,6 +1256,10 @@ text-align: center;
    }
 .customer-ul {
   padding-inline-start: 0;
+  display: flex;
+  gap: 32px;
+  margin-left: 32px;
+  margin-bottom: 100px;
 }
 .customer-ul .customer-li{
   display: inline;        
@@ -1293,12 +1299,6 @@ text-align: center;
   color: #858585;
 }
 
-.a{
-  display: none;
-}
-.b{
-  display: none;
-}
 /*Review Section Mobile Finish*/
 
 
@@ -1676,6 +1676,8 @@ text-align: center;
 }
 .rvw-customer-reviews {
   width: 100%;
+  overflow-x: auto; /* Yatay kaydırmayı aktif eder */
+  scroll-snap-type: x mandatory; /* Scroll snapping etkinleştirilir */
 }
 .customer-box {
   height: 188px;  
@@ -1735,9 +1737,6 @@ text-align: center;
   font-weight:500;
 }
 
-.b{
-  display: none;
-}
 /*Review Section Tablet Finish*/
 }
 /* Desktop Only Codes */
