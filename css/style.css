@@ -1054,6 +1054,7 @@ text-align: center;
   letter-spacing: -0.02em;
   line-height: 1;
   margin-bottom: 12px;
+  white-space:nowrap;
 
 }
 .section-four .section-four-container .section-four-list .section-four-vegetables .vegetables-div .vegetables-text {
