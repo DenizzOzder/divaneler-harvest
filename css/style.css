@@ -1253,6 +1253,7 @@ text-align: center;
   width: 100%;
   overflow-x: auto; /* Yatay kaydırmayı aktif eder */
   scroll-snap-type: x mandatory; /* Scroll snapping etkinleştirilir */
+  margin-bottom: 10px;
 }
 .customer-box {
 
@@ -2002,3 +2003,37 @@ text-align: center;
 }
 /*Review Section Desktop Finish*/
 }
+.rvw-customer-reviews {
+    overflow-x: auto; /* Yatay kaydırmayı aktif eder */
+    margin-bottom: 1.25px;
+    width: 100%;
+}
+
+  .rvw-customer-reviews::-webkit-scrollbar{
+    width: 5px;
+    max-height: 10px;
+  }
+  
+  /* Track */
+  .rvw-customer-reviews::-webkit-scrollbar-track {
+    background: #ffffff; 
+    max-height: 10px;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .rvw-customer-reviews::-webkit-scrollbar-thumb {
+    background: #576F35; 
+    max-height: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .rvw-customer-reviews::-webkit-scrollbar-thumb:hover {
+    background: #576F35; 
+    max-height: 10px;
+    
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
