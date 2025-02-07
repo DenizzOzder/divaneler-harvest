@@ -842,7 +842,7 @@ a {
     height: 20px;
     display: flex;
     align-items: center;
-    gap: 9px;
+    gap: 4px;
    }
    .footer-logo .icon-menu{
      width: 20px
