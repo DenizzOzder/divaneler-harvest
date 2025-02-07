@@ -751,14 +751,17 @@ a {
   margin-right: 48px;
   margin-top: 52px;
 }
+.order .container .div-form-block .order-social .social-img{
+text-align: center;
+}
 
 .order .container .div-form-block .order-social .social{
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
   width: 386px;
   height: 56px;
-  margin-left: 48px;
+  margin: auto;
+  align-items: center;
 }
 
 .order .container .div-form-block .order-social .social .social-header{
@@ -1092,7 +1095,6 @@ a {
     margin-bottom: 20px;
     width: unset;
     height: unset;
-    margin-left: unset;
 }
 .order .container .div-order .order-header{
     font-weight: 600;
@@ -1526,7 +1528,6 @@ a {
   margin-bottom: 20px;
   width: unset;
   height: unset;
-  margin-left: unset;
 }
 .order .container .div-order .order-header{
   padding-left: 40px;
