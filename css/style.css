@@ -1082,6 +1082,8 @@ text-align: center;
 .order .container .div-form-block .form{
     width: 90vw;
     margin-left: 20px;
+    padding: 40px 20px;
+  
 }
 .order .container .div-order{
     width: unset;
@@ -1116,8 +1118,21 @@ text-align: center;
     height: unset;
 }
 .order .container .div-form-block .order-social .social .social-list{
-    gap: 8px;
+    gap: 3px;
 }
+  .order .container .div-form-block .order-social .social-img img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+.order .container .div-form-block .form-container .form .form-header{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  }
 
 /* Footer Section Mobile */
 .footer-container {
