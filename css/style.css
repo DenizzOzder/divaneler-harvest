@@ -2007,7 +2007,7 @@ text-align: center;
 .rvw-customer-reviews {
     overflow-x: auto; /* Yatay kaydırmayı aktif eder */
     margin-bottom: 1.25px;
-    width: 100%;
+    width: 99%;
 }
 
   .rvw-customer-reviews::-webkit-scrollbar{
