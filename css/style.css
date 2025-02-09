@@ -1000,13 +1000,11 @@ text-align: center;
 }
 
 .section-four .container {
-  padding: 80px 20px;
+  padding: 80px 10px;
   width: 100%;
   min-width: 320px;
   height: 100%;    
 }
-
-
 .section-four .section-four-container .section-four-header {
   font-family: 'Inter Tight', sans-serif;
   color: #FBFBFB;
@@ -1016,6 +1014,8 @@ text-align: center;
   letter-spacing: -0.02em;
   line-height: 1;
   margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .section-four .section-four-container .section-four-text {
   font-family: 'Inter Tight', sans-serif;
@@ -1025,6 +1025,8 @@ text-align: center;
   letter-spacing: 0em;
   line-height: 1.25;
   margin-bottom: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .section-four .section-four-container .section-four-header .vegetables-span{
