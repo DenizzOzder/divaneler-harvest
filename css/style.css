@@ -1548,6 +1548,10 @@ text-align: center;
   width: unset;
   height: unset;
 }
+.order .container .div-form-block .order-social .social-img img{
+  margin-bottom: 52px;
+}
+
 .order .container .div-order .order-header{
   padding-left: 40px;
 }
